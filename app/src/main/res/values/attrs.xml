@@ -1,0 +1,7 @@
+<resources>
+    <declare-styleable name="MyButton">
+        <attr name="customBackground" format="reference|color"/>
+        <attr name="customTextColor" format="reference|color"/>
+        <attr name="customTextSize" format="dimension"/>
+    </declare-styleable>
+</resources>

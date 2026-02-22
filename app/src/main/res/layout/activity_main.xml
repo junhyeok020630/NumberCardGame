@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- ② 게임 보드 -->
+    <org.techtown.hello.CustomView
+        android:id="@+id/customView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <!-- ③ 하단 패널 -->
+    <org.techtown.hello.SettingView
+        android:id="@+id/settingView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
